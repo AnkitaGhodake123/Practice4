@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Armstrong Number</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let num='75'
+		let sum=0
+		let op=num.split('').map((ele)=>sum+=(ele**(num.length)))
+		document.write((op[num.length-1]==num)?"Armstrong Number":"Not an Armstrong Number")
+	</script>
+
+</body>
+</html>
